@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+          
+            background-image:url(https://img.freepik.com/free-photo/clipboard-with-tomatoes-cutlery-table_23-2148505672.jpg?w=996&t=st=1700291938~exp=1700292538~hmac=f4b2febe8c39f4382650df12908cc0144c2d93394e142f82ce0143eedccc5b57);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 20px;
+         
+        }
+
+        .food-item {
+           
+         
+
+            border: 1px solid #ddd;
+            margin: 55px;
+            padding: 15px;
+            width: 300px;
+            background-color: #fff;
+            font-weight: bolder;
+          
+           
+        }
+
+        .food-item:hover {
+            transform: scale(1.05);
+        }
+
+        .food-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            
+        }
+
+        .food-details {
+            margin-top: 10px;
+           
+        }
+
+        h3, p {
+            margin: 0;
+        }
+        #MENU{ 
+            margin-left: 50%;
+            position: absolute;
+            justify-content: center;
+            color: white;
+            width:fit-content;
+            align-items: center;
+            background-color: black;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VAISHALI RESTAURANT</h1>
+    </header>
+   
+    <div id="MENU"> 
+       
+        <center> <h2> MENU:</h2></center>
+    </div>
+    
+
+    <div class="menu-container">
+        <div class="food-item">
+            <img class="food-image" src="https://th.bing.com/th/id/OIP.f-aG1k7uBVzDvbSYntCYYgHaE8?rs=1&pid=ImgDetMain"alt="Food 1">
+            <div class="food-details">
+                <h3>Food Item 1:</h3>
+                <ol>
+                    <li> NAME:PANNER TIKKA</li>
+                    <li>PRICE: &#x20b9;250</li>
+                </ol>
+               
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img class="food-image" src="https://c4.wallpaperflare.com/wallpaper/786/792/888/veggie-pizza-pizza-and-red-pepper-wallpaper-preview.jpg" alt="Food 2">
+            <div class="food-details">
+                <h3>Food Item 2:</h3>
+                <ol>
+                    <li> NAME:PIZZA</li>
+                    <li> PRICE: &#x20b9;450</li>
+                </ol>
+               
+            </div>
+        </div>
+        <div class="food-item">
+            <img class="food-image" src="https://cdn.tarladalal.com/members/9306/procstepimgs/veg-manchurian-dry-recipe-(2)-3-191684.jpg"alt="Food 3">
+            <div class="food-details">
+                <h3>Food Item 3:</h3>
+                <ol>
+                    <li> NAME:VEG MANCHURIAN DRY</li>
+                    <li> PRICE: &#x20b9;200</li>
+                </ol>
+               
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img class="food-image" src="https://media.istockphoto.com/id/1380540239/photo/fafda-with-sweet-jalebi.jpg?s=612x612&w=0&k=20&c=CYbidqOqB1t7YNFMDAJZuuw8WUGz6t3AdmbbY2GjlOs="alt="Food 4">
+            <div class="food-details">
+                <h3>Food Item 4:</h3>
+                <ol>
+                    <li> NAME:JETHALAL'S SPECIAL JALEBI FAFDA</li>
+                    <li>PRICE: &#x20b9;9500</li>
+                </ol>
+               
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img class="food-image" src="https://i.pinimg.com/originals/fa/fd/01/fafd01aca619a6626ff05f78fedab52e.jpg"alt="Food 5">
+            <div class="food-details">
+                <h3>Food Item 5:</h3>
+                <ol>
+                    <li> NAME:BUTTER NAAN AND SHAHI PANEER</li>
+                    <li>PRICE: &#x20b9;300</li>
+                </ol>
+               
+            </div>
+        </div>
+        <div class="food-item">
+            <img class="food-image" src="https://t3.ftcdn.net/jpg/03/67/95/04/360_F_367950457_q5L44UUBzQHjAn3D2m6HDePoIfnurDoX.jpg"alt="Food 6">
+            <div class="food-details">
+                <h3>Food Item 6:</h3>
+                <ol>
+                    <li> NAME:MISAL PAV</li>
+                    <li> PRICE: &#x20b9;100</li>
+                </ol>
+               
+            </div>
+        </div>
+        <div class="food-item">
+            <img class="food-image" src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Instant-Pot-Mumbai-Pav-Bhaji.jpg"alt="Food 7">
+            <div class="food-details">
+                <h3>Food Item 7:</h3>
+                <ol>
+                    <li> NAME:PAV BHAJI</li>
+                    <li> PRICE: &#x20b9;170</li>
+                </ol>
+               
+            </div>
+        </div>
+        <div class="food-item">
+            <img class="food-image" src="https://traditionallymodernfood.com/wp-content/uploads/2021/05/paneer-paratha-3-scaled.jpeg"alt="Food 8">
+            <div class="food-details">
+                <h3>Food Item 8:</h3>
+                <ol>
+                    <li > NAME:PANEER PARATHA</li>
+                    <li>  PRICE: &#x20b9;80</li>
+                </ol>
+               
+            </div>
+        </div>
+        <div class="food-item">
+            <img class="food-image" src="https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"alt="Food 9">
+            <div class="food-details">
+                <h3>Food Item 9:</h3>
+                <ol>
+                    <li> NAME:DOSA</li>
+                    <li> PRICE: &#x20b9;100</li>
+                </ol>
+               
+            </div>
+        </div>
+        <div class="food-item">
+            <img class="food-image" src="https://e1.pxfuel.com/desktop-wallpaper/721/33/desktop-wallpaper-evergreen-temptation-for-chole-bhature-ceia-chole-bhature.jpg"alt="Food 10">
+            <div class="food-details">
+                <h3>Food Item 10:</h3>
+                <ol>
+                    <li> NAME:CHOLE BHATURE</li>
+                    <li> PRICE: &#x20b9;210</li>
+                </ol>
+               
+            </div>
+        </div>
+        
+        
+   
+       
+        
+
+      
+
+    </div>
+</body>
+</html>
